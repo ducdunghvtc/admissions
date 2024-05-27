@@ -9,7 +9,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header class="header">
+<!-- <header class="header">
 	<div class="container">
 		<div class="header-navbar">
 			<div class="header-logo">
@@ -18,4 +18,4 @@
 			
 		</div>
 	</div>
-</header>
+</header> -->
