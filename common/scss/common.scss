@@ -1,0 +1,97 @@
+@import 'reset';
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    padding: 20px 0;
+    position: relative;
+    z-index: 999999;
+    &-navbar {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    &-logo {
+        width: 130px;
+        @media (min-width: 768px) {
+            width: 216px;
+        }
+        a {
+            display: block;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+.form-wrap::before {
+    position: absolute;
+    content: '';
+    background: url(../images/box-doc-20240221044027-zlgtj.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: calc(100% + 50px);
+    height: calc(100% + 50px);
+    left: 0;
+    right: 0;
+    top: 0;
+    
+}
+.form {
+    &-wrap {
+        position: relative !important;
+        &::before {
+            position: absolute;
+            content: '';
+            background: url(../images/box-doc-20240221044027-zlgtj.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: calc(100% + 50px);
+            height: calc(100% + 50px);
+            left: 0;
+            right: 0;
+            top: 0;
+        }
+    }
+    &-control {
+        min-height: 50px;
+        padding: 8px 15px;
+        border-radius: 9px;
+        border: 1px solid rgb(10, 103, 233);
+        color: rgb(132, 132, 132);
+        margin-bottom: 10px;
+        width: 100%;
+        &:focus {
+            outline: none;
+        }
+    }
+    &-submit {
+        font-size: 19px;
+        border-radius: 9px;
+        background-color: rgb(255, 93, 22);
+        color: #fff;
+        text-transform: uppercase;
+        padding: 15px;
+        width: 100%;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-size: 9px 6px !important;
+    background-position: right 15px center;
+    background-repeat: no-repeat;
+    padding-right: 24px;
+    background-image: url(../images/arrow.svg);
+}

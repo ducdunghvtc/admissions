@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.2 | 20191019
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none;
+}
+
+body {
+  line-height: 1;
+}
+
+menu, ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px 0;
+  position: relative;
+  z-index: 999999;
+}
+.header-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.header-logo {
+  width: 130px;
+}
+@media (min-width: 768px) {
+  .header-logo {
+    width: 216px;
+  }
+}
+.header-logo a {
+  display: block;
+}
+.header-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.form-wrap::before {
+  position: absolute;
+  content: "";
+  background: url(../images/box-doc-20240221044027-zlgtj.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% + 50px);
+  height: calc(100% + 50px);
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.form-wrap {
+  position: relative !important;
+}
+.form-wrap::before {
+  position: absolute;
+  content: "";
+  background: url(../images/box-doc-20240221044027-zlgtj.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% + 50px);
+  height: calc(100% + 50px);
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.form-control {
+  min-height: 50px;
+  padding: 8px 15px;
+  border-radius: 9px;
+  border: 1px solid rgb(10, 103, 233);
+  color: rgb(132, 132, 132);
+  margin-bottom: 10px;
+  width: 100%;
+}
+.form-control:focus {
+  outline: none;
+}
+.form-submit {
+  font-size: 19px;
+  border-radius: 9px;
+  background-color: rgb(255, 93, 22);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px;
+  width: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+select.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-size: 9px 6px !important;
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  padding-right: 24px;
+  background-image: url(../images/arrow.svg);
+}/*# sourceMappingURL=common.css.map */
