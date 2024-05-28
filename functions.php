@@ -247,8 +247,6 @@ function wp_style() {
 
 	wp_register_script( 'main-script', get_template_directory_uri() . "/common/js/common.js", array('jquery') );
 	wp_enqueue_script('main-script');
-	wp_register_script( 'main-script2', get_template_directory_uri() . "/common/js/ladipagev3.min0a00.js", array('jquery') );
-	wp_enqueue_script('main-script2');
 
 	
 }
@@ -266,11 +264,3 @@ function remove_core_updates (){
 add_filter ( 'pre_site_transient_update_core' , 'remove_core_updates' ); 
 add_filter ( 'pre_site_transient_update_plugins' , 'remove_core_updates' ); 
 add_filter ( 'pre_site_transient_update_themes' , 'remove_core_updates' );
-
-
-function my_wpcf7_form_elements($html) {
-    $text = 'Vui lòng chọn';
-    $html = str_replace('---',  $text , $html);
-    return $html;
-}
-add_filter('wpcf7_form_elements', 'my_wpcf7_form_elements');

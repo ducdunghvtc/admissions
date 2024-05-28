@@ -30,14 +30,14 @@
                <div id="BOX636" class='ladi-element'>
                   <div class='ladi-box ladi-transition'></div>
                </div>
-               <div id="IMAGE637" class='ladi-element'>
+               <!-- <div id="IMAGE637" class='ladi-element'>
                   <div class='ladi-image'>
                      <div class="ladi-image-background"></div>
                   </div>
-               </div>
-               <div id="HEADLINE316" class='ladi-element'>
+               </div> -->
+               <!-- <div id="HEADLINE316" class='ladi-element'>
                   <h3 class='ladi-headline ladi-transition'><span style="font-weight: bold;">MÃ TRƯỜNG: <span style="color: rgb(0, 77, 149);">PKA</span></span><br></h3>
-               </div>
+               </div> -->
                <div id="IMAGE685" class='ladi-element'>
                   <div class='ladi-image'>
                      <div class="ladi-image-background"></div>
@@ -48,9 +48,9 @@
                      <div class="ladi-image-background"></div>
                   </div>
                </div>
-               <div id="HEADLINE670" class='ladi-element'>
+               <!-- <div id="HEADLINE670" class='ladi-element'>
                   <h3 class='ladi-headline ladi-transition'><span style="font-weight: bold;">CHỈ TIÊU TUYỂN SINH: <span style="color: rgb(0, 77, 149);">11.296</span></span><br></h3>
-               </div>
+               </div> -->
                <div id="IMAGE688" class='ladi-element'>
                   <div class='ladi-image'>
                      <div class="ladi-image-background"></div>
@@ -64,7 +64,7 @@
                         </div>
                      </div>
                      <div id="FORM16" data-config-id="65dd8a9b47fabe002c863a95" class='ladi-element'>
-                        <form autocomplete="off" method="post" class='ladi-form'>
+                        <!-- <form autocomplete="off" method="post" class='ladi-form'>
                            <div id="BUTTON17" class='ladi-element'>
                               <div class='ladi-button ladi-transition'>
                                  <div class="ladi-button-background"></div>
@@ -157,7 +157,10 @@
                               </div>
                            </div>
                            <button type="submit" class="ladi-hidden"></button>
-                        </form>
+                        </form> -->
+                        <div class="ladi-form">
+                           <?php echo do_shortcode('[contact-form-7 id="cef515d" title="Form liên hệ 1"]') ?>
+                        </div>
                      </div>
                      <div id="HEADLINE23" class='ladi-element'>
                         <h3 class='ladi-headline ladi-transition'>ĐĂNG KÝ TƯ VẤN TUYỂN SINH<br>HỆ ĐẠI HỌC CHÍNH QUY<br></h3>
@@ -167,45 +170,6 @@
                <div id="IMAGE263" class='ladi-element'>
                   <div class='ladi-image ladi-transition'>
                      <div class="ladi-image-background"></div>
-                  </div>
-               </div>
-               <div id="GROUP670" class='ladi-element'>
-                  <div class='ladi-group'>
-                     <div id="COUNTDOWN637" class='ladi-element'>
-                        <div class='ladi-countdown'>
-                           <div id="COUNTDOWN_ITEM640" class='ladi-element'>
-                              <div class="ladi-countdown-background"></div>
-                              <div class='ladi-countdown-text'><span>00</span></div>
-                           </div>
-                           <div id="COUNTDOWN_ITEM641" class='ladi-element'>
-                              <div class="ladi-countdown-background"></div>
-                              <div class='ladi-countdown-text'><span>00</span></div>
-                           </div>
-                           <div id="COUNTDOWN_ITEM642" class='ladi-element'>
-                              <div class="ladi-countdown-background"></div>
-                              <div class='ladi-countdown-text'><span>00</span></div>
-                           </div>
-                           <div id="COUNTDOWN_ITEM643" class='ladi-element'>
-                              <div class="ladi-countdown-background"></div>
-                              <div class='ladi-countdown-text'><span>00</span></div>
-                           </div>
-                        </div>
-                     </div>
-                     <div id="HEADLINE713" class='ladi-element'>
-                        <h3 class='ladi-headline'>NGÀY</h3>
-                     </div>
-                     <div id="HEADLINE714" class='ladi-element'>
-                        <h3 class='ladi-headline'>GIỜ</h3>
-                     </div>
-                     <div id="HEADLINE715" class='ladi-element'>
-                        <h3 class='ladi-headline'>PHÚT</h3>
-                     </div>
-                     <div id="HEADLINE716" class='ladi-element'>
-                        <h3 class='ladi-headline'>GIÂY</h3>
-                     </div>
-                     <div id="HEADLINE717" class='ladi-element'>
-                        <h3 class='ladi-headline'>ĐẾM NGƯỢC THỜI HẠN ĐĂNG KÝ</h3>
-                     </div>
                   </div>
                </div>
             </div>
